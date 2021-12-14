@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+.inner {
+    width: 100%;
+    max-width: calc(1440px - 240px);
+    margin: auto;
+    padding: 0 120px;
+}

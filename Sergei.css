@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inner-serega {
+    width: 100%;
+    max-width: calc(1440px - 240px);
+    margin: 0 auto;
+    padding: 50px 120px 23px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.big-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 146px;
+}
+
+.sin {
+    width: 115px;
+    height: 68px;
+}
+
+.instagram {
+    width: 33px;
+    height: 33px;
+}
+
+.facebook {
+    width: 32px;
+    height: 32px;
+    margin-left: 18px;
+}
+
+.vk {
+    width: 35px;
+    height: 35px;
+    margin-left: 21px;
+}
+
+.whatsapp {
+    width: 34px;
+    height: 34px;
+    margin-left: 25px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.tel {
+    width: 27px;
+    height: 27px;
+    margin-right: 22px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.mail {
+    width: 27px;
+    height: 18px;
+    margin-right: 22px;
+}
+
+.footer .text {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.copyright {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 0 0 23px;
+}
+
+@media screen and (max-width: 1279px) {
+    .inner-serega {
+        width: 100%;
+        padding: 30px 100px 25px 70px;
+    }
+    .big-block {
+        margin-bottom: 85px;
+    }
+    .text {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .copyright {
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        margin: 0 0 23px;
+    }
+    .instagram {
+        width: 20px;
+        height: 20px;
+    }
+    .facebook {
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+    }
+    .vk {
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+    }
+    .whatsapp {
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+    }
+    .mail {
+        width: 21px;
+        height: 14px;
+        margin-right: 15px;
+    }
+    .tel {
+        width: 21px;
+        height: 21px;
+        margin-right: 15px;
+    }
+    .sin {
+        width: 67px;
+        height: 40px;
+    }
+    .phone {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    .footer .text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 833px) {
+    .inner-serega {
+        width: 100%;
+        padding: 20px 0 5px 60px;
+    }
+    .big-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .social {
+        margin-top: 15px;
+    }
+    .contacts {
+        margin-top: 50px;
+    }
+    .text {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .copyright {
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        margin: 0 0 10px;
+    }
+    .instagram {
+        width: 15px;
+        height: 15px;
+    }
+    .facebook {
+        width: 15px;
+        height: 15px;
+        margin-left: 5px;
+    }
+    .vk {
+        width: 15px;
+        height: 15px;
+        margin-left: 5px;
+    }
+    .whatsapp {
+        width: 15px;
+        height: 15px;
+        margin-left: 5px;
+    }
+    .tel {
+        width: 13px;
+        height: 13px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .mail {
+        width: 13px;
+        height: 13px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .sin {
+        width: 54px;
+        height: 32px;
+    }
+    .footer .text {
+        font-size: 12px;
+    }
+}
