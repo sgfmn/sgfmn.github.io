@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
-.about {
+ .about *, .first-page * {
     margin: 0;
     padding: 0;
 }
 
 .first-page {
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
-.inner {
+.inner-katya {
     width: calc(100% - 240px);
     max-width: 1200px;
     margin: 0 auto;
@@ -23,7 +21,6 @@
     height: 66px;
     margin-top: 21px;
 }
-
 .hat img {
     width: 100%;
     height: 100%;
@@ -46,15 +43,12 @@
 .text-date {
     display: flex;
 }
-
 .globe {
     display: flex;
 }
-
 .clock {
     display: flex;
 }
-
 .calendar {
     display: flex;
 }
@@ -63,8 +57,7 @@
     width: 22px;
     height: 21px;
 }
-
-.text {
+.middle-text {
     width: 130px;
     padding-left: 8px;
 }
@@ -91,15 +84,16 @@
     height: 356px;
     margin-top: 136px;
     margin-right: 126px;
-    margin-left: 140px;
+    margin-left: 70px;
 }
+
 
 .bottom {
     transform: rotate(-4deg);
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 65px;
+    margin-bottom: 90px;
 }
 
 .bottom-rotate {
@@ -127,12 +121,15 @@
 }
 
 @media screen and (max-width: 1279px) {
-    .inner {
+    
+    .inner-katya {
         width: calc(100% - 140px);
         padding: 0 70px;
     }
+    
     .hat {
         margin-top: 22px;
+        margin-bottom: 55px;
         width: 65px;
         height: 38px;
     }
@@ -141,9 +138,10 @@
         margin-top: 15px;
         width: 363px;
     }
-    .text {
+    .middle-text {
         width: 75px;
         padding-left: 5px;
+        margin-right: 5px;
     }
     .text-date img {
         width: 12.74px;
@@ -158,10 +156,11 @@
         width: 264px;
     }
     .cover-img {
-        width: 176.07px;
-        height: 206.18px;
-        margin-right: 80px;
-        margin-top: 70px;
+        width: 176.65px;
+        height: 218px;
+        margin-right: 70px;
+        margin-top: 30px;
+        margin-left: 80px;
     }
     .cover-img img {
         width: 100%;
@@ -182,12 +181,7 @@
 }
 
 
-/*.about {
-    padding: 91px 124px;
-    width: 1192px;
-    height: 832px;
-    margin: 0 auto;
-}*/
+
 
 .about-main {
     display: flex;
@@ -195,9 +189,8 @@
     justify-content: space-between;
 }
 
+
 .about-text-title {
-    /*width: 365px;
-    height: 93px;*/
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 55px;
@@ -216,17 +209,23 @@
     margin-bottom: 35px;
 }
 
-.pic1 {
+.about .pic1 {
     margin-top: 200px;
     margin-left: 164px;
+}
+
+.about .pic1 img {
+    width: 366px;
+    height: 344px;
 }
 
 .about-footer {
     display: flex;
     padding: 0;
+    margin-bottom: 80px;
 }
 
-.pic2 {
+.about .pic2 {
     padding: 20px 0;
     margin-right: 132px;
 }
@@ -240,7 +239,6 @@
     margin-right: 95px;
     width: 150px;
 }
-
 .table-title {
     font-family: Roboto;
     font-size: 25px;
@@ -255,7 +253,8 @@
     line-height: 130%;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px)  {
+    
     .about-text-title {
         font-size: 32px;
         margin-bottom: 25px;
@@ -268,19 +267,18 @@
     .text-p {
         margin-bottom: 20px;
     }
-    .pic1 img {
-        width: 181.86px;
-        height: 182.44px;
+    .about .pic1 img {
+        width: 212px;
+        height: 200.44px;
     }
-    .pic1 {
-        margin-top: 80px;
-        margin-left: 110px;
+    .about .pic1 {
+        margin: 80px 18px 0 110px;
     }
-    .pic2 img {
+    .about .pic2 img {
         width: 134.37px;
         height: 117.57px;
     }
-    .pic2 {
+    .about .pic2 {
         margin-right: 76px;
     }
     .table-title {
@@ -291,22 +289,24 @@
         font-size: 11px;
     }
     .table {
-        margin-right: 35px;
+        margin-right: 50px;
         width: 100px;
     }
+    
 }
 
 @media (max-width: 833px) {
-    .inner {
+    .inner-katya {
         width: calc(100% - 65px);
         padding: 0 30px 0 35px;
+        max-width: 768px;
     }
     .hat {
         margin-top: 35px;
         width: 52.19px;
         height: 30.75px;
     }
-    .text {
+    .middle-text {
         width: 60px;
         padding-right: 5px;
     }
@@ -359,6 +359,7 @@
     }
     .about-footer {
         flex-direction: column-reverse;
+        margin-bottom: 0;
     }
     .about-footer-text {
         flex-wrap: wrap;
@@ -374,7 +375,7 @@
         width: 86px;
         margin: 35px 35px 0 0;
     }
-    .pic2 {
+    .about .pic2 {
         margin: 0%;
         padding: 0;
         display: flex;
@@ -382,17 +383,17 @@
         position: relative;
         bottom: 90px;
     }
-    .pic2 img {
+    .about .pic2 img {
         width: 108.11px;
         height: 102.05px;
     }
-    .pic1 {
+    .about .pic1 {
         margin: 0;
         padding: 0;
         display: flex;
         justify-content: center;
     }
-    .pic1 img {
+    .about .pic1 img {
         width: 170.55px;
         height: 160.29px;
     }

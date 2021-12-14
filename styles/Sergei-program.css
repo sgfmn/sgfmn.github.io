@@ -61,7 +61,7 @@ body {
     width: 100%;
 }
 
-.block {
+.program .block {
     min-width: 25%;
     max-width: 380px;
     border-radius: 9%;
@@ -94,14 +94,15 @@ body {
         width: 430px;
         height: 80px;
         margin-bottom: 30px;
-        font-family: 'Roboto Slab', sans-serif font-weight: bold;
+        font-family: 'Roboto Slab', sans-serif;
+        font-weight: bold;
         font-size: 45px;
     }
     .black-line {
         height: 8px;
         margin-left: 70px;
     }
-    .block {
+    .program .block {
         width: calc(33% - 20px);
         border-radius: 9%;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -135,7 +136,7 @@ body {
         width: calc(100% - 68px);
         padding: 0 34px;
     }
-    .block {
+    .program .block {
         min-width: 250px;
         border-radius: 9%;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

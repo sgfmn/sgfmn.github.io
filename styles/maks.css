@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Roboto&display=swap");
+body{
+  margin: 0;
+  padding: 0;
+}
+.autors {
+  margin-top: 130px;
+}
+.inner-maks {
+  max-width: calc(100% - 240px);
+  width: 100%;
+  padding: 0 120px;
+  margin: auto;
+}
+.board-image {
+  display: flex;
+}
+.board {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0 0 0 23px;
+  line-height: 150%;
+  padding: auto;
+}
+.dinosour {
+  padding-top: 300px;
+  padding-left: 87px;
+}
+@media (max-width: 1279px) {
+  .inner-maks {
+    max-width: calc(100% - 140px);
+    padding: 0 70px;
+  }
+  .autors {
+    margin-top: 30px;
+  }
+  .team {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 100px;
+  }
+  .list {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 150%;
+    padding-left: 0px;
+  }
+  .dinosour {
+    padding-left: 50px;
+    padding-top: 180px;
+  }
+  .dino {
+    width: 180px;
+    height: 105px;
+  }
+}
+@media (max-width: 833px) {
+  .inner-maks {
+    max-width: calc(100% - 70px);
+    padding: 0 35px;
+  }
+  .board-image {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .team {
+    font-size: 26px;
+    line-height: 101.38%;
+  }
+  .list {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .dinosour {
+    padding-top: 15px;
+    padding-left: 70px;
+  }
+  .dino {
+    width: 145px;
+    height: 84px;
+  }
+}
+
+.zero {
+
+  width: 100%;
+  display: flex;
+}
+
+.right-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: 240px;
+}
+.left-block{
+  width: 50%;
+}
+h1 {
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+  margin-top: 200px;
+}
+.autor-dk {
+  display: flex;
+  padding-left: 30px;
+}
+h2 {
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 101.38%;
+  margin-bottom: 5px;
+}
+.inner-maks p {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 5px;
+}
+.name-autor {
+  padding-top: 30px;
+
+}
+.comment {
+
+  font-size: 18px;
+  line-height: 130%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 31px 21px 17px 25px;
+  margin-left: 150px;
+}
+
+.kd-photo {
+  display: flex;
+  margin-top: 400;
+  padding-top: 20px;
+}
+.info-kd {
+  font-size: 18px;
+  line-height: 130%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 21px 24px 25px;
+  margin-left: 150px;
+}
+.man-ph {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+@media (max-width: 1279px) {
+  .zero {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+
+  .right-block {
+    bottom: 110px;
+  }
+  h1 {
+
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+  .autor-dk {
+    padding-left: 30px;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 101.38%;
+  }
+  .inner-maks p {
+    font-size: 10px;
+    line-height: 130%;
+  }
+  .name-autor {
+    padding-top: 10px;
+    margin: 0px;
+  }
+  .comment {
+
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+    padding: 17px 12px 9px 14px;
+    margin-left: 130px;
+  }
+  .phot {
+    width: 109.46px;
+    height: 103.09px;
+  }
+
+  .info {
+    width: 204.45px;
+    height: 130.89px;
+  }
+  .kd-photo {
+    padding-top: 0px;
+  }
+  .kd-info {
+    width: 198px;
+  }
+  .info-kd {
+    margin-left: 100px;
+  }
+  .man-ph {
+    width: 146.53px;
+    height: 115.25px;
+    padding-left: 220px;
+    padding-bottom: 30px;
+  }
+  .man {
+    width: 146px;
+    height: 115px;
+  }
+}
+@media (max-width: 833px) {
+  .zero {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-block {
+    width: 100%;
+  }
+
+  .right-block {
+    display: contents;
+    width: 100%;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 101.38%;
+    margin-top: 0px;
+  }
+  .autor-dk {
+    padding: 0;
+  }
+  h2 {
+    font-size: 14px;
+    line-height: 101.38%;
+    font-weight: bold;
+  }
+  .inner-maks p {
+    font-size: 10px;
+    line-height: 130%;
+  }
+
+  .comment {
+    box-shadow: none;
+    margin-left: 75px;;
+  }
+  .phot {
+    width: 88.07px;
+    height: 82.94px;
+  }
+
+  .kd-info {
+    box-shadow: none;
+  }
+  .info {
+    width: auto;
+    height: auto;
+}
+  .info-kd {
+    width: auto;
+    box-shadow: none;
+    margin-left: 70px;
+    padding-top: 15px;
+  }
+  .man-ph {
+    display: none;
+  }
+ 
+}

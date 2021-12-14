@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Roboto+Slab&display=swap');
+.format{
+    margin : 0px; 
+    padding: 0px;
+    width: 100%;
+}
+.inner-danila{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin:auto;
+    max-width: 1200px ;
+
+}
+.blocks{
+    display: flex;
+    margin-top: 89px;
+    justify-content: space-between;
+}
+.block{
+    max-width: 29%;
+}
+
+
+.name{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+}
+.name-text{
+    font-size: 55px;
+}
+.mini-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+}
+.mini-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    flex-wrap: wrap;
+}
+.webinars{
+    max-width: 223px;
+}
+.image{
+    width: 274px;
+    height: 160px;
+    position: relative;
+    top : 116px;
+}
+
+@media screen and (max-width : 1279px) {
+    .inner-danila{
+        padding-left: 70px;
+        padding-right: 70px;
+        margin:auto;
+        max-width: 694px;
+    }
+    .name-text{
+        font-size: 32px;
+    }
+    .mini-name{
+        font-size: 15px;
+    }
+    .mini-text{
+        font-size: 11px;
+    }
+
+    .format .block{
+        max-width: 172px;
+        margin-right: 51px;
+    }
+
+    .image{
+        width: 157.69px;
+        height: 92.6px;
+        position: relative;
+        top : 70px;
+}
+}
+
+@media screen and (max-width : 833px)  {
+
+
+    .inner-danila{
+        padding-left: 35px;
+        padding-right: 35px;
+        margin:auto;
+        max-width: calc(375px - 70px);
+    }
+
+    .name-text{
+        font-size: 26px;
+    }
+    .mini-name{
+        font-size: 12px;
+    }
+    .mini-text{
+        font-size : 10px;
+    }
+
+    .format .block{
+        max-width: 165px;
+        margin-top: 25px;
+    }
+
+    .image{
+        width: 157.69px;
+        height: 92.6px;
+        position: relative;
+        top: 25px;
+        
+}
+    .blocks{
+        display: block;
+        margin-top: 16px;
+    }
+    .third-block{
+        max-width: 340px;
+        display: flex;
+    }
+    
+    }
+
+
+
+

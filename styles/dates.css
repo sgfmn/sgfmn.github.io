@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Roboto+Slab&display=swap');
+
+body {
+    margin : 0 ;
+    padding: 0;
+}
+.dates{
+    margin : 0px; 
+    padding: 0px;
+    width: 100%;
+}
+.inner-dates{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin:auto;
+    max-width:1200px ;
+    padding-top: 179px;
+    padding-bottom: 185px;
+    background-color: #9DC9C8;
+}
+
+.dates-main{
+    width: 100%;
+}
+
+.start-text{
+    margin-top: 0;
+    font-family: 'Roboto Slab' , serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.price-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.price{
+    margin-top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+.marketing-section{
+    width: 100%;
+    display: flex;
+    margin-top: 88px;
+}
+
+.marketing-block{
+    margin-right: 70px;
+    
+    width: 322px;
+}
+
+.first-marketing-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+.second-marketing-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+@media screen and (max-width : 1279px){
+    .inner-dates{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 103px;
+        padding-bottom: 107px;
+        max-width: 694px;
+    }
+
+    .start-text{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .price-text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .price{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 46px;
+    }
+
+    .first-marketing-text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .second-marketing-text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+    }
+
+    .marketing-section{
+        margin-top: 52px;
+    }
+}
+
+    @media screen and (max-width : 833px){
+        .inner-dates{
+            padding-left: 36px;
+            padding-right: 36px;
+            padding-top: 62px;
+            padding-bottom: 63px;
+            max-width: calc(375px - 72px);
+        }
+        .start-text{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            width: 59%;
+        }
+    
+        .price-text{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+        }
+    
+        .price{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 37px;
+        }
+    
+        .first-marketing-text{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+        }
+    
+        .second-marketing-text{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+        }
+    
+        .marketing-section{
+            margin-top: 40px;
+        }
+        .marketing-block {
+            margin-right: 30px;
+            width: 50%;
+        }
+    }
